@@ -66,7 +66,7 @@ export default function Activities() {
           <h2 className="display-6 th-fw-700 th-36 pb-2">Swimming</h2>
           <p>Did you know that swimming enhances academic performance? Yes, swimming accelerates the growth of new brain cells,
            improving cognitive function and intellectual abilities <br/>
-           <Link href={"/"} >Read more <i class="ms-1 mt-3 fas fa-angle-right	th-13 text-red"></i></Link>
+            <Link href={"/"} className="text-red" >Read more <i className="ms-1 mt-3 fas fa-angle-right th-13 text-red"></i></Link>
            </p>
 
           <img src="/images/activityImages/Swim1.jpg" width="300px"/>
