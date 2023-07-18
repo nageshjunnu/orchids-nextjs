@@ -1,0 +1,20 @@
+.th-curriculum-card{
+    border: 1px solid #E9E9F9;
+background: #F9F9FF;
+border-radius: 15px;
+}
+
+.th-card-img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.th-custom-list-icon ul li{
+    list-style: none; /* Hide the default list icon */
+     padding-left: 24px; /*Create space for the icon */
+    background-image:url('../public/images/CheckIcon.svg'); /* Specify the path to your icon image */
+    background-repeat: no-repeat;
+    background-size: 16px 16px; /* Adjust this value to change the size of the background image */
+    background-position: left center; /* Adjust the positioning of the icon */
+    line-height: 1.5; 
+}

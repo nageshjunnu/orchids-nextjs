@@ -1,0 +1,22 @@
+.progress {
+}
+
+ul.progress ::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 5px;
+  background: #777;
+  width: 150px;
+  height: 5px;
+}
+
+ul.progress li {
+  top: 0;
+  background: #000;
+
+  width: 21px;
+  height: 21px;
+  z-index: 1;
+  position: relative;
+}

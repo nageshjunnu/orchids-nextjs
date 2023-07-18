@@ -1,0 +1,87 @@
+@use "theme_variable";
+
+.th-primary-text {
+  color: theme_variable.$primary-color !important;
+}
+.th-white-text {
+  color: theme_variable.$white-color !important;
+}
+.th-dark-black-text {
+  color: theme_variable.$dark-black-color !important;
+}
+.th-black-text {
+  color: #000 !important;
+}
+
+.th-bg-primary {
+  background-color: theme_variable.$primary-color !important;
+}
+
+.th-bg-secondary {
+  background-color: theme_variable.$secondary-color !important;
+}
+
+.th-black-bg {
+  background-color: theme_variable.$black-color !important;
+}
+.th-primary-bg {
+  background-color: theme_variable.$primary-color !important;
+}
+
+.th-white-bg {
+  background-color: theme_variable.$white-color !important;
+}
+
+.th-dark-black-bg {
+  background-color: theme_variable.$dark-black-color !important;
+}
+
+.th-primary-border {
+  border-color: theme_variable.$primary-color !important;
+}
+
+.th-pointer {
+  cursor: pointer !important;
+}
+
+// Buttons
+
+.th-btn-default {
+  outline: none;
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 42px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.th-btn-primary {
+  @extend .th-btn-default;
+  color: #000;
+  outline: 1px solid theme_variable.$primary-color;
+  background-color: theme_variable.$primary-color;
+}
+
+.th-btn-outlined {
+  @extend .th-btn-default;
+  color: #000;
+  outline: 1px solid #000;
+  background-color: transparent;
+}
+
+.th-btn-lg {
+  @extend .th-btn-default;
+  font-size: 16px;
+  height: 40px;
+  padding: 6.428571428571429px 15px;
+  border-radius: 8px;
+}
+
+.th-btn-lg-primary {
+  @extend .th-btn-lg;
+  color: #fff;
+  background-color: theme_variable.$primary-color;
+}
