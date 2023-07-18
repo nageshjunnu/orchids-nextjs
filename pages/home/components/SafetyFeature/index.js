@@ -55,13 +55,14 @@ export default class SafetyFeature extends Component {
       <>
         <div className="th-container my-4 py-4">
           <div className="pt-5 pb-3">
-            <p className="th-28 th-fw-600 col-md-9">
-              Orchids is not just an another CBSE or ICSE school in India, it is
-              your child's second home.
-            </p>
+            <p className="th-28 th-fw-600 text-center">
             <p className="th-40 th-fw-700 text-warning">
               Zero Compromise on safety
             </p>
+              Orchids is not just an another CBSE or ICSE school in India, it is
+              your child's second home.
+            </p>
+
           </div>
           <div>
             <Slider {...settings}>
