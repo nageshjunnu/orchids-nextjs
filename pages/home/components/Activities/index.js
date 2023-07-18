@@ -22,7 +22,8 @@ export default function Activities() {
           <h2 className="display-6 th-fw-700 th-36 pb-2">Art</h2>
           <p>Art stimulates the imagination. To watch a child completely engrossed in arts is to recognize that the brain is active and driven by aesthetics and emotions, to make meaning, state opinions, and represent what matters to them
           <br/>
-          <Link href={"/"} >Read more <i class="ms-1 mt-3 fas fa-angle-right th-13 text-red"></i></Link></p>
+          <Link href={"/"} className="text-red" >Read more <i className="ms-1 mt-3 fas fa-angle-right th-13 text-red"></i></Link>
+      </p>
 
           <img src="/images/activityImages/Teach-Responsibilty.png" width="300px"/>
 
@@ -37,7 +38,7 @@ export default function Activities() {
             In collaboration with Furtados School of Music, ORCHIDS has introduced a curriculum that provides children with an opportunity to learn and play musical
              instruments, and express thoughts in a creative and artistic way
              <br/>
-             <Link href={"/"} >Read more <i class="ms-1 mt-3 fas fa-angle-right th-13 text-red"></i></Link>
+              <Link href={"/"} className="text-red" >Read more <i className="ms-1 mt-3 fas fa-angle-right th-13 text-red"></i></Link>
              </p>
 
             <img src="/images/activityImages/4-3.jpg" width="300px"/>
@@ -52,7 +53,7 @@ export default function Activities() {
             <p>Children should be involved in at least one art form as it contributes to their happiness. And when combined with learning,
             it must never be ignored. At ORCHIDS, we believe dance is an integral aspect of a balanced education programme
             <br/>
-            <Link href={"/"} >Read more <i class="ms-1 mt-3 fas fa-angle-right th-13 text-red"></i></Link>
+            <Link href={"/"} className="text-red" >Read more <i className="ms-1 mt-3 fas fa-angle-right th-13 text-red"></i></Link>
             </p>
 
             <img src="/images/activityImages/dance1.jpg" width="300px"/>
@@ -80,7 +81,7 @@ export default function Activities() {
 
           The Taekwondo program at Orchids The International School is designed to
           <br/>
-          <Link href={"/"} >Read more <i class="ms-1 mt-3 fas fa-angle-right	th-13 text-red"></i></Link>
+           <Link href={"/"} className="text-red" >Read more <i className="ms-1 mt-3 fas fa-angle-right th-13 text-red"></i></Link>
           </p>
 
           <img src="/images/activityImages/Taek4.jpg" width="300px"/>
@@ -94,7 +95,8 @@ export default function Activities() {
             <p>‘YOUNG ORCHIDS THESPIANS’ is a uniquely designed curriculum for theatre followed at every branch of ORCHIDS International School.
             This curriculum is based on David Kolb’s ‘Experiential Learning Theory’, Lev Vygotsky’s ‘Social Constructivist and Collaborative Learning
              Theories”<br/>
-             <Link href={"/"} >Read more <i class="ms-1 mt-3 fas fa-angle-right	th-13 text-red"></i></Link></p>
+              <Link href={"/"} className="text-red" >Read more <i className="ms-1 mt-3 fas fa-angle-right th-13 text-red"></i></Link>
+               </p>
 
             <img src="/images/activityImages/theatre1.jpg" width="300px"/>
           </div>
