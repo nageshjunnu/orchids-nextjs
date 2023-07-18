@@ -17,7 +17,7 @@ export default function Activities() {
   		<div className="row d-flex justify-content-between">
 
   			<div className="col-md-6 bg-primary-end position-relative text-center">
-        <div className="px-3 px-md-0 py-5 py-md-8  position-relative ">
+        <div className="px-3 px-md-5 py-5 py-md-8  position-relative ">
         {  /*<span className="font-alt fw-normal display-8 d-block mb-3">We are creating smart websites.</span>*/}
           <h2 className="display-6 th-fw-700 th-36 pb-2">Art</h2>
           <p>Art stimulates the imagination. To watch a child completely engrossed in arts is to recognize that the brain is active and driven by aesthetics and emotions, to make meaning, state opinions, and represent what matters to them <Link href={"/"} ><u>Read more...</u></Link></p>
@@ -39,9 +39,9 @@ export default function Activities() {
 
 
         <div className="col-md-6 bg-primary-end position-relative  p-0">
-  				<div className="bg-black px-3 px-md-5 py-5 py-md-8 text-white position-relative  text-center">
-          {  /*<span className="font-alt fw-normal display-8 d-block mb-3">We are creating smart websites.</span>*/}
-            <h2 className="display-6 th-fw-700 th-36 pb-2">Dance</h2>
+        <div className="bg-black px-3 px-md-5 py-5 py-md-8 text-white position-relative  text-center">
+        {  /*<span className="font-alt fw-normal display-8 d-block mb-3">We are creating smart websites.</span>*/}
+          <h2 className="display-6 th-fw-700 th-36 pb-2">Dance</h2>
             <p>Children should be involved in at least one art form as it contributes to their happiness. And when combined with learning, it must never be ignored. At ORCHIDS, we believe dance is an integral aspect of a balanced education programme <Link href={"/"} ><u>Read more...</u></Link></p>
 
             <img src="/images/activityImages/dance1.jpg" width="300px"/>
@@ -49,7 +49,7 @@ export default function Activities() {
   			</div>
 
         <div className="col-md-6 bg-primary-end position-relative text-center">
-        <div className="px-3 px-md-5 py-5 py-md-8  position-relative">
+        <div className="px-3 px-md-5 py-5 py-md-8  position-relative ">
         {  /*<span className="font-alt fw-normal display-8 d-block mb-3">We are creating smart websites.</span>*/}
           <h2 className="display-6 th-fw-700 th-36 pb-2">Swimming</h2>
           <p>Did you know that swimming enhances academic performance? Yes, swimming accelerates the growth of new brain cells, improving cognitive function and intellectual abilities <Link href={"/"} ><u>Read more...</u></Link></p>
