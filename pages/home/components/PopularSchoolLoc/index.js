@@ -24,7 +24,7 @@ export default function PopularSchoolLoc() {
       <div>
         <p className="th-30 th-fw-600">CBSE schools in popular cities</p>
       </div>
-      <div className="my-5" style={{ display: "flex", flexWrap: "wrap" }}>
+      <div className="my-0" style={{ display: "flex", flexWrap: "wrap" }}>
         {places.map((ele) => {
           return (
             <div className="th-br-36 px-3 py-2 m-2 th-chips">
@@ -33,10 +33,10 @@ export default function PopularSchoolLoc() {
           );
         })}
       </div>
-      <div className="my-5">
+      <div className="my-0 mt-5">
         <p className="th-30 th-fw-600">Pre schools in popular cities</p>
       </div>
-      <div className="my-5" style={{ display: "flex", flexWrap: "wrap" }}>
+      <div className="my-0" style={{ display: "flex", flexWrap: "wrap" }}>
         {places.map((ele) => {
           return (
             <div className="th-br-36 px-3 py-2 m-2 th-chips">
