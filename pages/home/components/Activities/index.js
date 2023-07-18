@@ -20,7 +20,9 @@ export default function Activities() {
         <div className="px-3 px-md-5 py-5 py-md-8  position-relative ">
         {  /*<span className="font-alt fw-normal display-8 d-block mb-3">We are creating smart websites.</span>*/}
           <h2 className="display-6 th-fw-700 th-36 pb-2">Art</h2>
-          <p>Art stimulates the imagination. To watch a child completely engrossed in arts is to recognize that the brain is active and driven by aesthetics and emotions, to make meaning, state opinions, and represent what matters to them <Link href={"/"} ><u>Read more...</u></Link></p>
+          <p>Art stimulates the imagination. To watch a child completely engrossed in arts is to recognize that the brain is active and driven by aesthetics and emotions, to make meaning, state opinions, and represent what matters to them
+          <br/>
+          <Link href={"/"} >Read more <i class="ms-1 mt-3 fas fa-angle-right th-13 text-red"></i></Link></p>
 
           <img src="/images/activityImages/Teach-Responsibilty.png" width="300px"/>
 
@@ -31,7 +33,12 @@ export default function Activities() {
   				<div className="bg-black px-3 px-md-5 py-5 py-md-8 text-white position-relative  text-center">
           {  /*<span className="font-alt fw-normal display-8 d-block mb-3">We are creating smart websites.</span>*/}
             <h2 className="display-6 th-fw-700 th-36 pb-2">Music</h2>
-            <p>Music is a significant part of every culture, tradition, religion, etc. Feelings are magnified when expressed through music. In collaboration with Furtados School of Music, ORCHIDS has introduced a curriculum that provides children with an opportunity to learn and play musical instruments, and express thoughts in a creative and artistic way <Link href={"/"} ><u>Read more...</u></Link></p>
+            <p>Music is a significant part of every culture, tradition, religion, etc. Feelings are magnified when expressed through music.
+            In collaboration with Furtados School of Music, ORCHIDS has introduced a curriculum that provides children with an opportunity to learn and play musical
+             instruments, and express thoughts in a creative and artistic way
+             <br/>
+             <Link href={"/"} >Read more <i class="ms-1 mt-3 fas fa-angle-right th-13 text-red"></i></Link>
+             </p>
 
             <img src="/images/activityImages/4-3.jpg" width="300px"/>
   				</div>
@@ -42,7 +49,11 @@ export default function Activities() {
         <div className="bg-black px-3 px-md-5 py-5 py-md-8 text-white position-relative  text-center">
         {  /*<span className="font-alt fw-normal display-8 d-block mb-3">We are creating smart websites.</span>*/}
           <h2 className="display-6 th-fw-700 th-36 pb-2">Dance</h2>
-            <p>Children should be involved in at least one art form as it contributes to their happiness. And when combined with learning, it must never be ignored. At ORCHIDS, we believe dance is an integral aspect of a balanced education programme <Link href={"/"} ><u>Read more...</u></Link></p>
+            <p>Children should be involved in at least one art form as it contributes to their happiness. And when combined with learning,
+            it must never be ignored. At ORCHIDS, we believe dance is an integral aspect of a balanced education programme
+            <br/>
+            <Link href={"/"} >Read more <i class="ms-1 mt-3 fas fa-angle-right th-13 text-red"></i></Link>
+            </p>
 
             <img src="/images/activityImages/dance1.jpg" width="300px"/>
   				</div>
@@ -52,7 +63,10 @@ export default function Activities() {
         <div className="px-3 px-md-5 py-5 py-md-8  position-relative ">
         {  /*<span className="font-alt fw-normal display-8 d-block mb-3">We are creating smart websites.</span>*/}
           <h2 className="display-6 th-fw-700 th-36 pb-2">Swimming</h2>
-          <p>Did you know that swimming enhances academic performance? Yes, swimming accelerates the growth of new brain cells, improving cognitive function and intellectual abilities <Link href={"/"} ><u>Read more...</u></Link></p>
+          <p>Did you know that swimming enhances academic performance? Yes, swimming accelerates the growth of new brain cells,
+           improving cognitive function and intellectual abilities <br/>
+           <Link href={"/"} >Read more <i class="ms-1 mt-3 fas fa-angle-right	th-13 text-red"></i></Link>
+           </p>
 
           <img src="/images/activityImages/Swim1.jpg" width="300px"/>
         </div>
@@ -64,7 +78,10 @@ export default function Activities() {
           <h2 className="display-6 th-fw-700 th-36 pb-2">Taekwondo</h2>
           <p>Looking for a personality-building activity that builds strength, flexibility, and coordination while imparting valuable life-saving skills?
 
-          The Taekwondo program at Orchids The International School is designed to <Link href={"/"} ><u>Read more...</u></Link></p>
+          The Taekwondo program at Orchids The International School is designed to
+          <br/>
+          <Link href={"/"} >Read more <i class="ms-1 mt-3 fas fa-angle-right	th-13 text-red"></i></Link>
+          </p>
 
           <img src="/images/activityImages/Taek4.jpg" width="300px"/>
         </div>
@@ -74,7 +91,10 @@ export default function Activities() {
           <div className="bg-black px-3 px-md-5 py-5 py-md-8 text-white position-relative  text-center">
           {  /*<span className="font-alt fw-normal display-8 d-block mb-3">We are creating smart websites.</span>*/}
             <h2 className="display-6 th-fw-700 th-36 pb-2">Theatre</h2>
-            <p>‘YOUNG ORCHIDS THESPIANS’ is a uniquely designed curriculum for theatre followed at every branch of ORCHIDS International School. This curriculum is based on David Kolb’s ‘Experiential Learning Theory’, Lev Vygotsky’s ‘Social Constructivist and Collaborative Learning Theories” <Link href={"/"} ><u>Read more...</u></Link></p>
+            <p>‘YOUNG ORCHIDS THESPIANS’ is a uniquely designed curriculum for theatre followed at every branch of ORCHIDS International School.
+            This curriculum is based on David Kolb’s ‘Experiential Learning Theory’, Lev Vygotsky’s ‘Social Constructivist and Collaborative Learning
+             Theories”<br/>
+             <Link href={"/"} >Read more <i class="ms-1 mt-3 fas fa-angle-right	th-13 text-red"></i></Link></p>
 
             <img src="/images/activityImages/theatre1.jpg" width="300px"/>
           </div>

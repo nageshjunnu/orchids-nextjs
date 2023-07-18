@@ -360,3 +360,7 @@ a {
 .bg-black{
   background-color: #000;
 }
+
+.text-red{
+  color:#dc3545;
+}
